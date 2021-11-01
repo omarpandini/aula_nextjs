@@ -7,6 +7,7 @@ export default function Layout(props) {
         <div className={Styles.layout}>
 
             <div className={Styles.cabecalho}>
+                <h1>{props.titulo ?? "Mais um Exemplo"}</h1>
                 <Link href="/">Voltar</Link>
             </div>
 
